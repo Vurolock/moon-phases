@@ -53,19 +53,41 @@ header div {
     border-right: 1px solid black;
 }
 
+.descriptor {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 18px
+}
+
 ul {
     margin-top: 20px;
     padding-left: 50px;
 }
 
 li {
-    padding-bottom: 10px;
+    padding-bottom: 30px;
+    width: 130px;
+}
+
+li img {
+    width: 65px;
+    height:75px;
+    padding-top: 10px;
+    display: none;
+}
+
+li:hover img {
+    display: block;
 }
 
 main {
     color: black;
+    padding: 10px 200px 0px 200px;
 }
 
+main div {
+    padding: 10px 20px;
+}
 footer {
     display: block;
     width: 100%;
