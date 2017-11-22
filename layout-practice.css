@@ -1,0 +1,28 @@
+header {
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    width: 100%;
+    min-width: 1000px;
+    position: relative;
+    background-color: rgba(53, 47, 47, 0.836);
+    border-bottom: 1px solid black;
+    font-size: 13px;
+    font-family: 'Spectral SC', serif;
+    color: #f5f5f5;
+    display: block;
+}
+
+header div {
+    display: block;
+    padding: 13px 15px 14px 15px;
+    text-align: center;
+}
+
+.pop {
+    padding: 13px 2px 8px 2px;
+}
+
+.pop:hover {
+    font-size: 26px;
+}
