@@ -11,6 +11,9 @@ html:active {
     background-color: black;
 }
 
+html:active .gif-holder {
+    padding-top: 0;
+}
 html:active .secret {
     display: block;
     overflow-wrap: break-word;
@@ -22,9 +25,9 @@ html:active .content {
     display: none;
 }
 
-html:active .sidebar {
+/* html:active .sidebar {
     height: 1000px;
-}
+} */
 
 html, body {
     width: 100%;
